@@ -39,4 +39,51 @@ WaveFinder is an **interactive C# stock analysis tool** that combines candlestic
 ```bash
 git clone https://github.com/danabenish/CandleStickTrack.git
 cd StockWave-Analyzer/src
-start StockWave.sln
+start WindowsFormsProject1.sln
+```
+
+## 📂 Data Format Requirements
+```bash
+CSV files must contain these exact column headers:
+"Date","Open","High","Low","Close","Volume"
+"2023-01-03",9.960000000382,10.1599998474,9.9499998092,10.090000152587,32307
+```
+
+## 🎛️ Controls Reference
+
+| Control               | Action                                  |
+|-----------------------|-----------------------------------------|
+| 🖱️ Left-click + drag  | Draw new wave between points            |
+| 🎚️ Margin slider      | Adjust peak/valley detection sensitivity|
+| ▶/⏹️ Buttons          | Start/Stop auto-simulation              |
+| +/- Buttons           | Manual wave height adjustment           |
+| 📅 Date dropdowns      | Change chart date range                 |
+| Right-click wave      | Delete/Configure wave                   |
+| Mouse wheel           | Zoom in/out on chart                    |
+
+## 📝 Example Workflow
+
+1. **Load Data**  
+   Import your stock CSV file (`File > Import` or drag-and-drop)
+
+2. **Set Range**  
+   Select start/end dates from dropdown calendars
+
+3. **Analyze**  
+   - Let the system auto-detect peaks/valleys  
+     *or*  
+   - Manually draw waves between key points (click+drag)
+
+4. **Simulate**  
+   - Run auto-simulator with ▶ button  
+   - Observe Fibonacci levels updating in real-time
+
+5. **Validate**  
+   Watch for golden dots at accurate prediction points
+
+## 💡 Tips for Best Results
+- **📅 Use 6+ months** of daily data for clearer wave patterns  
+- **⛰️ Start waves** at significant peaks/valleys (ignore minor fluctuations)  
+- **🎚️ Adjust sensitivity** until inflection points are clearly marked  
+- **🔍 Zoom in** (mouse wheel) for precise wave drawing  
+- **🔄 Compare multiple waves** using different colors  
