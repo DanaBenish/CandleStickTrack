@@ -6,7 +6,11 @@
 ## 🚀 Project Overview
 WaveFinder is an **interactive C# stock analysis tool** that combines candlestick pattern visualization with advanced wave theory and Fibonacci retracement tools. Perfect for technical analysts looking to identify market trends.
 
-![App Screenshot](screenshot.png) *(Upload a screenshot and replace this text)*
+## 📹 Video Demo
+## 🎥 Video Demo
+<video src="APPLstockdemo.mp4" width="800" controls>
+  Your browser doesn't support HTML5 video.
+</video>
 
 ## ✨ Key Features
 
