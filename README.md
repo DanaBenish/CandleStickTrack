@@ -18,8 +18,25 @@ WaveFinder is an **interactive C# stock analysis tool** that combines candlestic
 | **Smart Timeframes** | Daily/Weekly/Monthly aggregation with smooth transitions |
 | **Dynamic Date Ranges** | Interactive calendar pickers for precise analysis |
 
-### 🌊 Wave Analysis Tools
-```plaintext
-• Automated Peak/Valley Detection (with adjustable sensitivity)
-• Multi-Wave Management (draw or select existing patterns)
-• Visual Wave Tagging (green = upward, red = downward)
+**🌊 Wave Analysis**
+- Auto peak/valley detection (adjustable sensitivity)
+- Manual wave drawing between critical points
+- Multi-wave management with color coding (green=bullish/red=bearish)
+
+**📐 Fibonacci Tools**
+- Automatic retracement level calculation (23.6%, 38.2%, etc.)
+- Golden dots marking accurate predictions
+- Live level updates during simulation
+
+**🎮 Interactive Simulator**
+- +/- buttons for manual wave adjustment
+- Auto-mode with configurable step size
+- Real-time chart updates
+
+## 🚀 Quick Start
+1. **Prerequisites**: .NET 6.0+, Visual Studio 2022
+2. **Run the app**:
+```bash
+git clone https://github.com/danabenish/CandleStickTrack.git
+cd StockWave-Analyzer/src
+start StockWave.sln
